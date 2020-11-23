@@ -13,7 +13,7 @@ COPY . .
 RUN yarn lint && yarn test
 
 # Expose application port
-EXPOSE 5000
+EXPOSE 5001
 # In production environment
 RUN yarn build
 ENV NODE_ENV production
